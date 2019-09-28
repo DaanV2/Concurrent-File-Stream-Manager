@@ -5,7 +5,7 @@ namespace DaanV2 {
 	namespace Concurrent {
 		ConcurrentFileStreamManager::ConcurrentFileStreamManager() {
 			this->_Drives = gcnew ConcurrentDictionary<String^, DriveManager^>();
-			this->_CreateNew = gcnew Func<String^, DriveManager^>(this->Create);
+			this->_CreateNew = gcnew Func<String^, DriveManager^>(ConcurrentFileStreamManager::Create);
 		}
 
 		inline DriveManager^ ConcurrentFileStreamManager::Get(String^ Filepath) {

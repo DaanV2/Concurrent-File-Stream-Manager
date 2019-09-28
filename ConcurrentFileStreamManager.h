@@ -17,7 +17,7 @@ namespace DaanV2 {
 			System::Func<String^, DriveManager^>^ _CreateNew;
 
 			inline DriveManager^ Get(String^ Filepath);
-			DriveManager^ Create(String^ Key);
+			static DriveManager^ Create(String^ Key);
 
 		public:
 			//Creates a new instance of ConcurrentFileStreamManager
