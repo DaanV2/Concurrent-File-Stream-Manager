@@ -36,7 +36,7 @@
     <ClInclude Include="DriveManager.h">
       <Filter>Header Files\Classes</Filter>
     </ClInclude>
-    <ClInclude Include="ConcurrentFileManager.h">
+    <ClInclude Include="ConcurrentFileStreamManager.h">
       <Filter>Header Files\Classes</Filter>
     </ClInclude>
   </ItemGroup>
@@ -53,7 +53,7 @@
     <ClCompile Include="DriveManager.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
-    <ClCompile Include="ConcurrentFileManager.cpp">
+    <ClCompile Include="ConcurrentFileStreamManager.cpp">
       <Filter>Source Files\Classes</Filter>
     </ClCompile>
   </ItemGroup>
